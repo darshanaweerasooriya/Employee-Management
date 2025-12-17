@@ -1,0 +1,49 @@
+.adminSidebar {
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #2D88D4;
+    color: white;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.adminSidebarList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.adminRow {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.adminRow:hover {
+    background-color: #1b5f9c;
+}
+
+.adminIcon {
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.adminTitle {
+    font-weight: 500;
+    font-size: 16px;
+}
